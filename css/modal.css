@@ -37,7 +37,7 @@
           0 1px 3px rgba(0, 0, 0, 0.12),
           0 2px 1px rgba(0, 0, 0, 0.2);
 
-     position: relative;
+     position: relative; 
 }
 
 .modal-title {
@@ -57,7 +57,7 @@
 }
 
 .modal-field--comment {
-     margin-bottom: 8px;
+     margin-bottom: 16px;
 }
 
 .modal-label {
@@ -181,8 +181,7 @@
      letter-spacing: 0.04em;
 
      color: #8e8f99;
-     margin-top: 0;
-     margin-bottom: 16px;
+     margin-bottom: 24px;
 }
 
 .checkbox-input {
@@ -225,6 +224,7 @@
 }
 
 .checkbox-icon {
+     fill: #f4f4fd;
      opacity: 0;
      transform: scale(0.6);
 
@@ -263,6 +263,7 @@
      font-size: 16px;
      font-weight: 500;
      line-height: 1.5;
+     letter-spacing: 0.04em;
 
      cursor: pointer;
 
