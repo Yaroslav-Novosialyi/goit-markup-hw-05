@@ -53,11 +53,11 @@
      text-align: center;
      color: #2e2f42;
 
-     margin-bottom: 8px;
+     margin-bottom: 16px;
 }
 
 .modal-field {
-     margin-bottom: 16px;
+     margin-bottom:8px;
 }
 
 .modal-label {
@@ -191,6 +191,7 @@
 
      color: transparent;
      background-color: transparent;
+     color:transparent
 
      transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease;
 }
@@ -224,6 +225,11 @@
      background-color: #404bbf;
      border-color: transparent;
      fill: #f4f4fd;
+}
+
+.checkbox-input:checked+.checkbox-label .checkbox-icon {
+     opacity: 1;
+     transform: scale(1);
 }
 
 .privacy-link {
